@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - KthElementFromLast",
+      "request": "launch",
+      "mainClass": "CrackingTheCodingInterview.JavaSols.KthElementFromLast",
+      "projectName": "Interviews_92ea2f9d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - RemoveDuplicate",
       "request": "launch",
       "mainClass": "CrackingTheCodingInterview.JavaSols.RemoveDuplicate",
