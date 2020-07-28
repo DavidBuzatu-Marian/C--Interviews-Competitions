@@ -1,8 +1,8 @@
 package CrackingTheCodingInterview.JavaSols;
 
 public class KthElementFromLast {
-    private static Node getKthElement(Node head, int k) {
-        Node current, fastCurrent;
+    private static Node<Character> getKthElement(Node<Character> head, int k) {
+        Node<Character> current, fastCurrent;
         int counter = 0;
         current = head;
         fastCurrent = head;
@@ -22,11 +22,11 @@ public class KthElementFromLast {
     }
 
     public static void main(String[] args) {
-        Node n1 = new Node('4');
-        Node n2 = new Node('3');
-        Node n3 = new Node('1');
-        Node n4 = new Node('7');
-        Node n5 = new Node('5');
+        Node<Character> n1 = new Node<Character>('4');
+        Node<Character> n2 = new Node<Character>('3');
+        Node<Character> n3 = new Node<Character>('1');
+        Node<Character> n4 = new Node<Character>('7');
+        Node<Character> n5 = new Node<Character>('5');
         int k = 4;
         n1.setNext(n2);
         n2.setNext(n3);

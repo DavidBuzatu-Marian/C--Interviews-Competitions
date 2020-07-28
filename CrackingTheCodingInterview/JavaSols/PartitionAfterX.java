@@ -2,8 +2,8 @@ package CrackingTheCodingInterview.JavaSols;
 
 public class PartitionAfterX {
 
-    public static Node splitAfterPivot(Node node, char x) {
-        Node nextNode, tail = node, newHead = node;
+    public static Node<Character> splitAfterPivot(Node<Character> node, char x) {
+        Node<Character> nextNode, tail = node, newHead = node;
         while (node != null) {
             nextNode = node.getNext();
             if (node.getData() > x) {
@@ -20,12 +20,12 @@ public class PartitionAfterX {
     }
 
     public static void main(String[] args) {
-        Node n1 = new Node('4');
-        Node n2 = new Node('3');
-        Node n3 = new Node('1');
-        Node n4 = new Node('7');
-        Node n5 = new Node('5');
-        Node n6 = new Node('1');
+        Node<Character> n1 = new Node<Character>('4');
+        Node<Character> n2 = new Node<Character>('3');
+        Node<Character> n3 = new Node<Character>('1');
+        Node<Character> n4 = new Node<Character>('7');
+        Node<Character> n5 = new Node<Character>('5');
+        Node<Character> n6 = new Node<Character>('1');
         n1.setNext(n2);
         n2.setNext(n3);
         n3.setNext(n4);

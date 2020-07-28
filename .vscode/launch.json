@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - AddTwoNumbersAsList",
+      "request": "launch",
+      "mainClass": "CrackingTheCodingInterview.JavaSols.AddTwoNumbersAsList",
+      "projectName": "Interviews_92ea2f9d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - PartitionAfterX",
       "request": "launch",
       "mainClass": "CrackingTheCodingInterview.JavaSols.PartitionAfterX",

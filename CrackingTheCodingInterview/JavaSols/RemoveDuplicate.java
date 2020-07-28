@@ -2,10 +2,10 @@ package CrackingTheCodingInterview.JavaSols;
 
 public class RemoveDuplicate {
 
-    public static Node removeDuplicate(Node head) {
-        Node current = head;
+    public static Node<Character> removeDuplicate(Node<Character> head) {
+        Node<Character> current = head;
         while (current != null) {
-            Node fastNode = current;
+            Node<Character> fastNode = current;
             while (fastNode.getNext() != null) {
                 if (fastNode.getNext().getData() == current.getData()) {
                     fastNode.setNext(fastNode.getNext().getNext());
@@ -20,11 +20,11 @@ public class RemoveDuplicate {
     }
 
     public static void main(String[] args) {
-        Node n1 = new Node('1');
-        Node n2 = new Node('1');
-        Node n3 = new Node('1');
-        Node n4 = new Node('1');
-        Node n5 = new Node('2');
+        Node<Character> n1 = new Node<Character>('1');
+        Node<Character> n2 = new Node<Character>('1');
+        Node<Character> n3 = new Node<Character>('1');
+        Node<Character> n4 = new Node<Character>('1');
+        Node<Character> n5 = new Node<Character>('2');
 
         n1.setNext(n2);
         n2.setNext(n3);

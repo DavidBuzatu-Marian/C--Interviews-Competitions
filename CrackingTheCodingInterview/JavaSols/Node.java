@@ -1,27 +1,27 @@
 package CrackingTheCodingInterview.JavaSols;
 
-public class Node {
-    private char data;
-    private Node next;
+public class Node<T> {
+    private T data;
+    private Node<T> next;
 
-    public Node(char data) {
+    public Node(T data) {
         this.data = data;
         this.next = null;
     }
 
-    public void setData(char data) {
+    public void setData(T data) {
         this.data = data;
     }
 
-    public void setNext(Node next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 
-    public char getData() {
+    public T getData() {
         return this.data;
     }
 
-    public Node getNext() {
+    public Node<T> getNext() {
         return this.next;
     }
 }
