@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - ThreeStacks",
+      "request": "launch",
+      "mainClass": "CrackingTheCodingInterview.JavaSols.ThreeStacks",
+      "projectName": "Interviews_92ea2f9d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - Intersection",
       "request": "launch",
       "mainClass": "CrackingTheCodingInterview.JavaSols.Intersection",
