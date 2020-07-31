@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - LinkedListOfDepth",
+      "request": "launch",
+      "mainClass": "CrackingTheCodingInterview.JavaSols.LinkedListOfDepth",
+      "projectName": "Interviews_92ea2f9d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - OrderStack",
       "request": "launch",
       "mainClass": "CrackingTheCodingInterview.JavaSols.OrderStack",
