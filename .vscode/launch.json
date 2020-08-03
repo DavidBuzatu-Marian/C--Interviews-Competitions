@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Successor",
+      "request": "launch",
+      "mainClass": "CrackingTheCodingInterview.JavaSols.Successor",
+      "projectName": "Interviews_92ea2f9d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - IsBalanced",
       "request": "launch",
       "mainClass": "CrackingTheCodingInterview.JavaSols.IsBalanced",
