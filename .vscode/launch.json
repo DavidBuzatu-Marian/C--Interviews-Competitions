@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - SubtreeOfTree",
+      "request": "launch",
+      "mainClass": "CrackingTheCodingInterview.JavaSols.SubtreeOfTree",
+      "projectName": "Interviews_92ea2f9d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - CommonAncestor",
       "request": "launch",
       "mainClass": "CrackingTheCodingInterview.JavaSols.CommonAncestor",
