@@ -30,8 +30,8 @@ void DFS(int i, int j) {
 
 int main() {
 
-    std::ifstream input_f("./acces2.in");
-    std::ofstream output_g("./acces2.out");
+    std::ifstream input_f("acces2.in");
+    std::ofstream output_g("acces2.out");
     input_f >> n >> m;
 
     for (int i = 0; i < n; ++i) {
