@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - SubstringWithTChars",
+      "request": "launch",
+      "mainClass": "LeetCode.SubstringWithTChars",
+      "projectName": "Interviews_92ea2f9d"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - RevWordsInPlace",
       "request": "launch",
       "mainClass": "LeetCode.RevWordsInPlace",
